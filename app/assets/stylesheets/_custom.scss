@@ -1,11 +1,49 @@
-$green:         #00FFC4;
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
 
-// $brand-primary: $green;
-// $link-color:    $green;
-// $body-bg:       #6891e3;
+$body-bg:   #001F3F;
+$golden:    #d4af37;
+$white:     #fff;
+$green:     #75BE5B;
+$red:       #D9594C;
 
-$enable-rounded: false;
-$enable-shadows: true;
-$enable-gradients: true;
+$brand-primary: $body-bg;
 
-$font-family-sans-serif: "Candal", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Fonts
+
+$font-family-monospace:  'Honey Script';
+$font-family-base: 'Quicksand'; // Provisional, Lane's substitute
+$font-family-sans-serif: 'Candara';
+
+
+// Buttons
+
+$btn-primary-color:              $white;
+$btn-primary-bg:                 $brand-primary;
+$btn-primary-border:             transparent;
+
+$btn-secondary-color:            $body-bg;
+$btn-secondary-bg:               $white;
+$btn-secondary-border:           $btn-secondary-bg;
+
+$btn-success-color:              $white;
+$btn-success-bg:                 $green;
+$btn-success-border:             $btn-success-bg;
+
+$btn-danger-color:               $white;
+$btn-danger-bg:                  $red;
+$btn-danger-border:              $btn-danger-bg;
+
+$btn-border-radius:              0;
+
+// Links
+
+$link-color:                     $white;
+
+// Forms
+
+$input-color-placeholder:        black;
+$input-border-radius:            0;
