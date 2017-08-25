@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Rails 5 Boostrap 4 minimal project to configure a theme
 
-Things you may want to cover:
+### Install
+Just run:
 
-* Ruby version
+```
+bundle install
+rails s```
 
-* System dependencies
+### Test
+Go to http://localhost:3000
 
-* Configuration
+### Configure
+* Change bootstrap variables in **app/assets/stylesheets/_custom.scss**
+* Edit html in **app/views/pages/welcome.html.erb**
+* To change fonts, check header in **app/views/layouts/application.html.erb**
 
-* Database creation
+To apply changes, just press F5 after saving edits
 
-* Database initialization
+### Create new static pages
+* Create a new file in **app/views/pages/** (by example, about.html.erb) *extension is important*
+* Invoke it as http://localhost:3000/pages/about
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Test some CoffeeScript
+Add stuff to **app/assets/javascripts/main.coffee**
+or create a new coffee file in same folder and add reference to it in  **app/assets/javascripts/application.js**
