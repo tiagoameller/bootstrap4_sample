@@ -5,12 +5,13 @@
 ### Install
 Just run:
 
-```
-bundle install
-rails s```
+`bundle install`<br/>
+`rails s`
 
 ### Test
 Go to http://localhost:3000
+
+Your app is running! :sunglasses:
 
 ### Configure
 * Change bootstrap variables in **app/assets/stylesheets/_custom.scss**
