@@ -9,20 +9,30 @@ $white:     #fff;
 $green:     #75BE5B;
 $red:       #D9594C;
 
-$brand-primary: $body-bg;
+$theme-colors: (
+  primary: #001F3F,
+  secondary: grey,
+  success: green,
+  info: cyan,
+  warning: yellow,
+  danger: red,
+  light: gray,
+  dark: gray
+);
 
 
 // Fonts
+$font-family-base: 'Alegreya Sans', sans-serif;
 
-$font-family-monospace:  'Honey Script';
-$font-family-base: 'Quicksand'; // Provisional, Lane's substitute
-$font-family-sans-serif: 'Candara';
+$font-size-base: 1.4rem;
+
+// Headings
+$headings-margin-bottom: 0;
 
 
 // Buttons
-
 $btn-primary-color:              $white;
-$btn-primary-bg:                 $brand-primary;
+$btn-primary-bg:                 theme-color("primary");
 $btn-primary-border:             transparent;
 
 $btn-secondary-color:            $body-bg;
@@ -40,10 +50,13 @@ $btn-danger-border:              $btn-danger-bg;
 $btn-border-radius:              0;
 
 // Links
-
 $link-color:                     $white;
+$link-decoration:                overline underline $golden;
+
 
 // Forms
-
 $input-color-placeholder:        black;
+$input-border-color:             transparent;
 $input-border-radius:            0;
+
+$input-placeholder-color:        $body-bg;
