@@ -52,11 +52,14 @@ $btn-border-radius:              0;
 // Links
 $link-color:                     $white;
 $link-decoration:                overline underline $golden;
+$link-hover-decoration:          underline $golden;
 
 
 // Forms
-$input-color-placeholder:        black;
+$input-bg:                       rgba($white, .8);
+$input-placeholder-color:        $body-bg;
 $input-border-color:             transparent;
 $input-border-radius:            0;
 
-$input-placeholder-color:        $body-bg;
+$input-focus-bg:                 $white;
+$input-focus-border-color:       transparent;
