@@ -1,30 +1,35 @@
 <!-- header -->
 <div id="header">
 
-  <!-- nav -->
-  <div class="bg-blue-transp py-4-5">
+  <!-- hidden hamburger menu -->
+  <div class="hidden-md-up bg-blue-transp p-2 justify-content-end">
+    <button class="navbar-toggler navbar-toggler-left mr-auto navbar-light" type="button" data-toggle="collapse" data-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">MyTheater</a>
+  </div><!-- / hidden hamburger menu -->
+
+  <div class="collapse bg-blue-transp py-2" id="navbarcontent">
     <ul class="nav nav-fill">
-      <li class="nav-item">
-        <h4><a href="nav-link active" href="#">CUSTOMERS AREA</a></h4>
+      <li class="nav-item active">
+        <a class="nav-link text-uppercase" href="#">Customers Area</a>
+      </li>
+      <li class="nav-item hidden-md-down">
+        <p class="nav-link text-uppercase text-white">MyTheater</p>
       </li>
       <li class="nav-item">
-        <h4 class="text-white">MyTheater</h4>
-      </li>
-      <li class="nav-item">
-        <h4><a href="nav-link active" href="#">RESTAURANTS AREA</a></h4>
+        <a class="nav-link text-uppercase" href="#">Restaurants area</a>
       </li>
     </ul>
   </div>
 
-
   <!-- restaurant search -->
   <div id="restaurant-searcher" class="row d-flex justify-content-center">
     <div class="col-6 col-md-4 pr-0">
-      <input type="text" class="form-control" placeholder="Name of restaurant...">
+      <input type="text" class="form-control text-md" placeholder="Name of restaurant...">
     </div>
-    <button type="submit" class="btn btn-primary text-uppercase">Book it</button>
+    <button type="submit" class="btn btn-primary text-md text-uppercase">Book it</button>
   </div>
-
 
 </div><!-- / header -->
 
@@ -39,63 +44,63 @@
   <!-- Restaurants grid -->
   <div class="row mt-3 mx-1 mx-md-5">
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="1.jpg" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">Restaurant Salsa</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="2.JPG" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">La Buonna Vitta</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="3.JPG" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">Fat Cow</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="1.jpg" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">Restaurant Salsa</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="2.JPG" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">La Buonna Vitta</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="3.JPG" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">Fat Cow</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="1.jpg" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">Restaurant Salsa</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="2.JPG" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">La Buonna Vitta</h3>
       </div>
     </div>
 
-    <div class="col-12 col-md-4 restaurant-row">
+    <div class="col-12 col-md-6 col-lg-4 restaurant-row">
       <img src="3.JPG" class="img-row img-fluid" alt="">
       <div class="restaurant-row-title">
         <h3 class="title">Fat Cow</h3>
@@ -105,3 +110,9 @@
   </div><!-- / row-->
 
 </div><!-- / body -->
+
+<!-- Footer -->
+<div class="bg-black text-center">
+  <a href="" class="footer-links m">Who we are</a>
+  <a href="" class="footer-links">Terms of service</a>
+</div>

@@ -13,11 +13,6 @@ a {
   padding-bottom: 25%; // Change to media queries
 }
 
-.py-4-5 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .bg-blue-transp {
   background: rgba(0, 31, 63, .7);
 }
@@ -59,8 +54,45 @@ a {
 
 }
 
+
+/* Breakpoints */
+@include media-breakpoint-down(sm) {
+  .text-md{
+    font-size: 1.15rem;
+  }
+}
+
 @include media-breakpoint-down(md) {
   .text-lg {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
+
+  .hidden-md-down {
+    display: none;
+  }
+
+  .hidden-md-up {
+    display: flex;
+  }
+
+  .collapse {
+    display: none;
+  }
+
+}
+
+@include media-breakpoint-up(md) {
+  .hidden-md-down {
+    display: block;
+  }
+
+  .hidden-md-up {
+    display: none;
+    visibility: hidden;
+  }
+
+  .collapse {
+    display: block;
+  }
+
 }
